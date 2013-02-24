@@ -2,7 +2,7 @@
 html{height:100%;min-height:100%;padding:0;margin:0;}
 body{background-color:red;font-family:"Helvetica Neue",helvetica,arial,sans-serif;}body h1,body h2{font-size:50px;font-weight:700;line-height:1;margin-bottom:0;text-align:center;}
 body h2{font-size:16px;font-weight:100;letter-spacing:0.125em;}
-article{background-color:red;min-height:100%;}article header{padding:50px 0;}
+article{background-color:#d95d30;min-height:100%;}article header{background-image:linear-gradient(bottom, #f2a950 16%, #d98032 58%);background-image:-o-linear-gradient(bottom, #d98032 16%, #d95d30 58%);background-image:-moz-linear-gradient(bottom, #f2a950 0%, #d98032 100%);background-image:-webkit-linear-gradient(bottom, #d98032 16%, #d95d30 58%);background-image:-ms-linear-gradient(bottom, #d98032 16%, #d95d30 58%);background-image:-webkit-gradient(linear, left bottom, left top, color-stop(0.16, #d98032), color-stop(0.58, #d95d30));padding:50px 0;}
 article section.cheesy{background-color:yellow;}
 article section.followup{background-color:green;}
 .slim{margin:0 auto;width:800px;}
