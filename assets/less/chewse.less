@@ -1,0 +1,66 @@
+@import "normalize.css";
+
+html {
+    height: 100%;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: red;
+    font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+
+    h1, h2 {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 1;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 16px;
+        font-weight: 100;
+        letter-spacing: 0.125em;
+    }
+}
+
+article {
+    background-color: red;
+    min-height: 100%;
+
+    header {
+        padding: 50px 0;
+    }
+
+    section {
+        &.cheesy {
+            background-color: yellow;
+        }
+        &.followup {
+            background-color: green;
+        }
+    }
+}
+
+.slim {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.cheesy {
+    .slim {
+        color: #000;
+        height: 200px;
+    }
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    color: #000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 44px;
+    font-weight: 100;
+    letter-spacing: 0.125em;
+    padding: 50px 0;
+    text-align: center;
+}
