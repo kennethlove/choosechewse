@@ -1,9 +1,13 @@
 @import "normalize.css";
 html{height:100%;min-height:100%;padding:0;margin:0;}
-body{background-color:red;font-family:"Helvetica Neue",helvetica,arial,sans-serif;}body h1,body h2{font-size:50px;font-weight:700;line-height:1;margin-bottom:0;text-align:center;}
-body h2{font-size:16px;font-weight:100;letter-spacing:0.125em;}
-article{background-color:#d95d30;min-height:100%;}article header{background-image:linear-gradient(bottom, #f2a950 16%, #d98032 58%);background-image:-o-linear-gradient(bottom, #d98032 16%, #d95d30 58%);background-image:-moz-linear-gradient(bottom, #f2a950 0%, #d98032 100%);background-image:-webkit-linear-gradient(bottom, #d98032 16%, #d95d30 58%);background-image:-ms-linear-gradient(bottom, #d98032 16%, #d95d30 58%);background-image:-webkit-gradient(linear, left bottom, left top, color-stop(0.16, #d98032), color-stop(0.58, #d95d30));padding:50px 0;}
-article section.cheesy{background-color:yellow;}
-article section.followup{background-color:green;}
+body{color:#d05c08;}body h1,body h2{font-weight:normal;line-height:1;margin:0;text-align:center;}
+body h1{font-family:"bello-pro",cursive;font-size:75px;text-shadow:2px 2px 1px #efee8f;}
+body h2{color:#efee8f;font-family:"reklame-script";font-size:25px;letter-spacing:0.125em;text-shadow:none;}
+article{min-height:100%;position:relative;}article header{padding:50px 0 0;}article header .slim{width:1100px;}
+article section.followup .slim{height:325px;left:50%;margin-left:-300px;position:absolute;overflow:auto;top:200px;width:600px;}article section.followup .slim p{color:#fff;}
+article section.followup .slim a{color:#efee8f;}
+article section.followup .slim dt{color:#efee8f;font-weight:bold;margin-top:1em;}article section.followup .slim dt:first-child{margin-top:0;}
+article section.followup .slim dd ul{list-style:square inside;padding-left:0;}article section.followup .slim dd ul li{font-size:1.5em;}article section.followup .slim dd ul li a{font-size:16px;}
+article section.followup .slim h3{color:#efee8f;font-family:"reklame-script";font-weight:normal;line-height:2;margin:0;text-align:center;}
+article section.followup .slim small{display:block;margin-bottom:20px;text-align:center;}
 .slim{margin:0 auto;width:800px;}
-.cheesy{border:1px solid #ccc;border-width:1px 0;color:#000;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:44px;font-weight:100;letter-spacing:0.125em;padding:50px 0;text-align:center;}.cheesy .slim{color:#000;height:200px;}
